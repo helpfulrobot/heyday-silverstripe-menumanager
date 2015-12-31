@@ -136,7 +136,6 @@ class MenuSet extends DataObject implements PermissionProvider
             );
 
             $config->addComponent(new GridFieldOrderableRows());
-
         } else {
             $fields->push(new TextField('Name', 'Name (this field can\'t be changed once set)'));
         }
